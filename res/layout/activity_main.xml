@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+    <Button
+        android:id="@+id/get_raditation_10sec_start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="定期取得 3秒" />
+
+    <Button
+        android:id="@+id/get_raditation_1min_start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="定期取得 10秒" />
+
+    <Button
+        android:id="@+id/get_raditation_10min_start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="定期取得 30秒" />
+
+    <Button
+        android:id="@+id/get_raditation_start_buton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="設定を反映" />
+
+    <Button
+        android:id="@+id/get_raditation_stop_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="STOP" />
+
+</LinearLayout>
